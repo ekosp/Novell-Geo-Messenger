@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:overScrollMode="ifContentScrolls"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    tools:context="com.example.android.tutr.viewTutor">
+
+    <ScrollView
+        android:id="@+id/scrollbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/favoriteButton"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:checked="false"
+                android:onClick="onFavorite"
+                android:button="@drawable/favorite_button" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/tutor_pic"
+                android:layout_centerHorizontal="true"
+                android:background="#246971"
+                android:layout_margin="10dp"
+                android:layout_alignParentTop="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Rating:"
+                android:id="@+id/view_rating"
+                android:layout_below="@+id/tutor_pic"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Subjects:"
+                android:id="@+id/view_subjects"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/ratingBar"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Description:"
+                android:id="@+id/view_description"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/display_subjects"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar"
+                android:layout_below="@+id/view_ownRating"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Hourly Rate ($/hr):"
+                android:id="@+id/view_rate"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/display_description"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Email Address:"
+                android:id="@+id/view_email"
+                android:layout_below="@+id/view_rate"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Leave Your Own Rating:"
+                android:id="@+id/view_ownRating"
+                android:layout_below="@+id/view_rating"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="21dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Rating "
+                android:textSize="20sp"
+                android:id="@+id/display_rating"
+
+                android:layout_above="@+id/view_ownRating"
+                android:layout_toRightOf="@+id/view_subjects"
+                android:layout_toEndOf="@+id/view_subjects" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="DESCRIPTION"
+                android:textSize="20sp"
+                android:id="@+id/display_description"
+                android:layout_below="@+id/view_description"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="rate"
+                android:textSize="20sp"
+                android:id="@+id/display_rate"
+                android:layout_marginLeft="10dp"
+                android:layout_alignBaseline="@+id/view_rate"
+                android:layout_toRightOf="@+id/view_rate"
+                android:layout_alignRight="@+id/ratingBar"
+                android:layout_alignEnd="@+id/ratingBar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="email"
+                android:textSize="20sp"
+                android:id="@+id/display_email"
+                android:layout_below="@+id/view_email"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="phone"
+                android:textSize="20sp"
+                android:id="@+id/display_phone"
+                android:layout_below="@+id/view_phone"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/display_counter"
+                android:layout_alignEnd="@+id/display_counter" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:id="@+id/call"
+                android:layout_alignBaseline="@id/display_phone"
+                android:layout_toRightOf="@id/display_phone"
+                android:layout_alignBottom="@id/display_phone"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:id="@+id/msg"
+                android:layout_alignBaseline="@id/display_phone"
+                android:layout_toRightOf="@+id/call"
+                android:layout_alignBottom="@id/display_phone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Subjects"
+                android:textSize="20sp"
+                android:id="@+id/display_subjects"
+                android:layout_below="@+id/view_subjects"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="rc"
+                android:textSize="20sp"
+                android:id="@+id/display_counter"
+                android:layout_above="@+id/view_ownRating"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Phone Number:"
+                android:id="@+id/view_phone"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/display_email"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Reviews:"
+                android:id="@+id/reviews_title"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/display_phone"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <LinearLayout
+                android:id="@+id/reviews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/reviews_title"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_marginTop="7sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:hint="Add a new review. Note that this will replace your previous review."
+                    android:id="@+id/add_new_review"
+                    android:layout_below="@+id/display_phone"
+                    android:background="@android:drawable/edit_text"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/save_new_review_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:allowUndo="true"
+                    android:text="Save New Review" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView><![CDATA[
+
+    />
+
+]]>
+</RelativeLayout>

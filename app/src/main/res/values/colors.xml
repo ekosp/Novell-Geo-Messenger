@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3869b9</color>
+    <color name="orderingButtonClicked">#648fd4</color>
+    <color name="colorPrimaryDark">#37588b</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="aluminium">#DBEEF4</color>
+    <color name="peacockBlue">#1E656D</color>
+    <color name="black">#000000</color>
+
+    <color name="tutorName">#292929</color>
+    <color name="attributes">#696969</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#c3dcec</color>
+    <color name="list_row_hover_end_color">#c3dcec</color>
+
+
+</resources>

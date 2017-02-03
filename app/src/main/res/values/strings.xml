@@ -1,0 +1,190 @@
+<resources>
+    <!-- Strings related to Registration -->
+    <string name="title_activity_registration">Registration</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_register">Sign Up</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_dup_email">This email is in use</string>
+    <string name="error_length_password">The password has to be 8 to 16 characters long</string>
+    <string name="error_CapCase">The password must have a capital letter</string>
+    <string name="error_lowerCase">The password must have a lower case letter</string>
+
+    <string name="prompt_old_password">Enter Old Password (Required)</string>
+    <string name="prompt_new_password">Enter New Password</string>
+    <string name="request_new_password">Enter Your Email</string>
+    <string name="prompt_confirm_new_password">Confirm New Password</string>
+    <string name="prompt_enter_new_name">Enter New Name</string>
+
+    <string name="error_invalid_name">Invalid name entered</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_name_numbers">Name can\'t have numbers</string>
+    <string name="error_field_not_matching">Passwords must match.</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."
+    </string>
+
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+
+    <!-- Strings related to Login -->
+
+    <string name="title_activity_login">Login</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="new_user_test">new user? Register <u>here</u></string>
+    <string name="name">Name</string>
+
+    <string name="here"><u>here</u></string>
+    <string name="title_activity_homepage">HomepageActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_login">Sign In</string>
+    <string name="title_activity_acc_set">Edit Account Settings</string>
+
+    <!-- Strings related to Tutor Profile -->
+    <string name="title_activity_view_tutor">Tutor Name</string>
+
+    <!-- Strings related to Main Activity -->
+    <string name="title_activity_main">Search</string>
+
+    <string name="nav_account_button">My Account</string>
+    <string name="nav_profile_button">My Profile</string>
+    <string name="nav_favorite_button">My Favorites</string>
+    <string name="nav_logout_button">Logout</string>
+    <string name="hourly_rate_text">Hourly Rate:\u0020</string>
+    <string name="rating_text">Rating:\u0020</string>
+
+    <!-- Strings related to Favorite Activity -->
+    <string name="title_activity_favorites">Favorites</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General account_settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="save">SAVE</string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example account_settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+
+    <string name="eProfile">Edit Profile</string>
+
+    <!-- Example account_settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="dialog_deleteProfile">Delete your profile picture?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="details_india">One-third the area of the United States, the Republic of India occupies most of the subcontinent of India in southern Asia. It borders on China in the northeast. Other neighbors are Pakistan on the west, Nepal and Bhutan on the north, and Burma and Bangladesh on the east.
+
+The country can be divided into three distinct geographic regions: the Himalayan region in the north, which contains some of the highest mountains in the world, the Gangetic Plain, and the plateau region in the south and central part. Its three great river systems—the Ganges, the Indus, and the Brahmaputra—have extensive deltas and all rise in the Himalayas.</string>
+
+    <string name="details_australia">The continent of Australia, with the island state of Tasmania, is approximately equal in area to the United States (excluding Alaska and Hawaii). Mountain ranges run from north to south along the east coast, reaching their highest point in Mount Kosciusko (7,308 ft; 2,228 m). The western half of the continent is occupied by a desert plateau that rises into barren, rolling hills near the west coast. The Great Barrier Reef, extending about 1,245 mi (2,000 km), lies along the northeast coast. The island of Tasmania (26,178 sq mi; 67,800 sq km) is off the southeast coast</string>
+    <string name="details_china">The greater part of the country is mountainous. Its principal ranges are the Tien Shan, the Kunlun chain, and the Trans-Himalaya. In the southwest is Tibet, which China annexed in 1950. The Gobi Desert lies to the north. China proper consists of three great river systems: the Yellow River (Huang He), 2,109 mi (5,464 km) long; the Yangtze River (Chang Jiang), the third-longest river in the world at 2,432 mi (6,300 km); and the Pearl River (Zhu Jiang), 848 mi (2,197 km) long.</string>
+    <string name="details_indonesia">Indonesia is an archipelago in Southeast Asia consisting of 17,000 islands (6,000 inhabited) and straddling the equator. The largest islands are Sumatra, Java (the most populous), Bali, Kalimantan (Indonesia\'s part of Borneo), Sulawesi (Celebes), the Nusa Tenggara islands, the Moluccas Islands, and Irian Jaya (also called West Papua), the western part of New Guinea. Its neighbor to the north is Malaysia and to the east is Papua New Guinea.
+
+Indonesia, part of the “ring of fire,” has the largest number of active volcanoes in the world. Earthquakes are frequent. Wallace\'s line, a zoological demarcation between Asian and Australian flora and fauna, divides Indonesia.</string>
+    <string name="details_japan">An archipelago in the Pacific, Japan is separated from the east coast of Asia by the Sea of Japan. It is approximately the size of Montana. Japan\'s four main islands are Honshu, Hokkaido, Kyushu, and Shikoku. The Ryukyu chain to the southwest was U.S.-occupied from 1945 to 1972, when it reverted to Japanese control, and the Kurils to the northeast are Russian-occupied.</string>
+    <string name="details_newzealand">New Zealand, about 1,250 mi (2,012 km) southeast of Australia, consists of two main islands and a number of smaller outlying islands so scattered that they range from the tropical to the antarctic. The country is the size of Colorado. New Zealand\'s two main components are the North Island and the South Island, separated by Cook Strait. The North Island (44,281 sq mi; 115,777 sq km) is 515 mi (829 km) long and volcanic in its south-central part. This area contains many hot springs and beautiful geysers. South Island (58,093 sq mi; 151,215 sq km) has the Southern Alps along its west coast, with Mount Cook (12,316 ft; 3754 m) the highest point. Other inhabited islands include Stewart Island, the Chatham Islands, and Great Barrier Island. The largest of the uninhabited outlying islands are the Auckland Islands (234 sq mi; 606 sq km), Campbell Island (44 sq mi; 114 sq km), the Antipodes Islands (24 sq mi; 62 sq km), and the Kermadec Islands (13 sq mi; 34 sq km).</string>
+    <string name="details_russia">The Russian Federation is the largest of the 21 republics that make up the Commonwealth of Independent States. It occupies most of eastern Europe and north Asia, stretching from the Baltic Sea in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the Black Sea and the Caucasus in the south. It is bordered by Norway and Finland in the northwest; Estonia, Latvia, Belarus, Ukraine, Poland, and Lithuania in the west; Georgia and Azerbaijan in the southwest; and Kazakhstan, Mongolia, China, and North Korea along the southern border.</string>
+    <string name="details_southkorea">Slightly larger than Indiana, South Korea lies below the 38th parallel on the Korean peninsula. It is mountainous in the east; in the west and south are many harbors on the mainland and offshore islands.</string>
+
+
+    <string name="app_name">Novell Geo Messenger</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <!-- <string name="nav_home">Home</string>-->
+    <string name="nav_photos">Photos</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <!-- <item>Home</item>-->
+        <item>Inbox</item>
+        <item>Location</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+    <string name="title_activity_places_map">title_activity_places_map</string>
+    <string name="nav_inbox">Inbox</string>
+    <string name="nav_location">Location</string>
+
+    <string-array name="Planets">
+        <item>Sun</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+</resources>
